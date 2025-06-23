@@ -10,7 +10,7 @@ multiple videos in one go as a audio (mp3) file.
 	You just need to make a list of links in a text file and name that text file as 
 'songs.txt' (sample songs.txt file available in this folder itself).
 
-All the neccesary files are included in same folder unzip it and run the .py file.
+
 
 
 Steps to run - 
@@ -49,7 +49,7 @@ ffmpeg
 ffplay
 ffprobe
 
-this 3 application are present in this folder but if you are getting error related to it just remove that files and 
+this 3 application are need to be present in this folder  
 follow this- 
 
 Step 1: Download FFmpeg (Standalone EXE Only)
