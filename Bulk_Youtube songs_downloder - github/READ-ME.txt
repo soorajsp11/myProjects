@@ -1,0 +1,78 @@
+			===============================
+			🎵 YouTube to MP3 Downloader
+			===============================
+
+
+=============* Download Youtube videos in Audio format in bulk quantity *==============
+
+This project is a python automation based work which can automate the task of downloading 
+multiple videos in one go as a audio (mp3) file. 
+	You just need to make a list of links in a text file and name that text file as 
+'songs.txt' (sample songs.txt file available in this folder itself).
+
+All the neccesary files are included in same folder unzip it and run the .py file.
+
+
+Steps to run - 
+
+1- Prepare your songs.txt and put it in same folder. (specific instruction mentioned below.)
+2- In vs code terminal run following commands as one time setup - 
+
+pip uninstall pytube -y (if already installed pytube)
+pip install git+https://github.com/pytube/pytube
+pip install --upgrade pytube (if needed then only)
+pip install yt-dlp 
+
+3- run the .py file 
+
+Output - 
+
+A folder named downloaded_songs will be created and inside it your songs will be there. 
+---------------------------------------------------------------------------------------------------
+Format for pesting youtube videos links in 'songs.txt' :
+1- pest links one below one.
+2- remove unneccessary part of the link.
+	e.g. when you copy youtube video link it will be like this 
+
+	https://youtu.be/MuVrsDfgwI0
+	https://youtu.be/22bLNq6iCjU
+	https://youtu.be/3x3mu3WEJw0
+	https://youtu.be/Y8QyyACKa70
+	https://youtu.be/AIOTIR7Awb4
+	https://youtu.be/trTlXJXtxMI
+	https://youtu.be/H8MEMh5t2vo
+---------------------------------------------------------------------------------------------------
+
+⚠️ Things that might go wrong - 
+
+ffmpeg
+ffplay
+ffprobe
+
+this 3 application are present in this folder but if you are getting error related to it just remove that files and 
+follow this- 
+
+Step 1: Download FFmpeg (Standalone EXE Only)
+Download precompiled ffmpeg.exe from here:
+🔗 https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip
+
+Extract the ZIP → Open the bin folder inside it.
+
+Copy the following 3 files and paste them directly into your project folder (same as your .py file):
+
+ffmpeg.exe
+ffplay.exe
+ffprobe.exe
+
+try to run again.
+
+
+In case of doubt feel free to reach out on mail.
+
+
+				- Thank You 
+			      created with 💖 by 
+				Suraj Patil
+			    surajsp9916@gmail.com 
+	
+****************************************************************************************************
